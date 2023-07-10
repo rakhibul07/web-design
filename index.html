@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7d5a80a866.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="header">
@@ -24,8 +25,8 @@
         <h3 class="banner-greeting">Hi, I  am</h3>
         <h1 class="banner-title">Mary Hardy</h1>
         <p banner-description>Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
-        <button class="btn-primary">Download CV</button> &nbsp; &nbsp;&nbsp;
-        <button class="btn-primary">Contact</button>
+        <button class="btn-primary"><i class="fa-solid fa-download"></i> Download CV</button> &nbsp; &nbsp;&nbsp;
+        <button class="btn-primary"><i class="fa-solid fa-phone"></i> Contact</button>
     </div>
     <img class="profile-picture" src="images/hardy.png" alt="">
 </div>
@@ -133,15 +134,13 @@
             </div>
         </div>
     </div>
-    <div class="download-cv">
-        <button class="btn-primary">Download CV</button>
+    <div class= "download-cv">
+        <button class="btn-primary"><i class="fa-solid fa-download"></i> Download CV</button>
     </div>
     
 </section>
     </main>
-    <footer>
-<section>
-    <div class="footer-container">
+    <footer class="footer-container">
         <div class="column">
             <h3 class="section-title">Lets Connect</h3>
             <p class="column-description">Please fill out the form on this section to contact with me or call between <br> 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
@@ -153,12 +152,13 @@
         </div>
         <div class="column">
             <h3 class="section-title">Let’s Message me</h3>
-           <form action="">
-
+           <form class="contact">
+<input class="input-type" type="text"  placeholder ="Your Name"><br><br>
+<input class="input-type"  type="email" name="" id="" placeholder="Your E-mail"><br><br> 
+<textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea><br>
+<input class="btn-primary" type="submit" value="submit">
            </form>
         </div>
-    </div>
-</section>
     </footer>
 </body>
 </html>
